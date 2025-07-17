@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SpriteType 自动打字",
+  "version": "1.0",
+  "description": "自动输入 SpriteType 单词并自动进入下一轮。",
+//  "icons": {
+//    "128": "icon.png"
+//  },
+  "content_scripts": [
+    {
+      "matches": ["https://spritetype.irys.xyz/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
