@@ -1,0 +1,1 @@
+# sprite-auto-typer
